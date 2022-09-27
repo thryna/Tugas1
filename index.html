@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <style>
-        table, th, td {
-            border: 2px solid rgb(238, 198, 175);
-            border-collapse: collapse;
-            margin: 0 auto;
-        }
-    </style>
-   <section>
-    <h1> <center> BIODATA ATEP CANTIEQ </center> </h1>
-    <img src="atep cantik.jpeg" style="width: 10%; margin: 40px auto; display: block;">
-    <table style="border: 1px solid; text-align: left; margin: 0px auto;">
-        <tr>
-          <th>Nama</th>
-          <td>:</td>
-          <td>Anisa Theryana Putri</td>
-        </tr>
-        <tr>
-            <th>Nim</th>
-            <td>:</td>
-            <td>2102208</td>
-        </tr>
-        <tr>
-            <th>Prodi</th>
-            <td>:</td>
-            <td>Pendidikan Sistem Teknologi Informasi</td>
-        </tr>
-        <tr>
-            <th>Hobi</th>
-            <td>:</td>
-            <td>Makaaannn</td>
-        </tr>
-        <tr>
-            <th>Makanan kesukaan</th>
-            <td>:</td>
-            <td>bakso, seblak, mie ayam, pokkonya semua yang enak aku suka:D</td>
-        </tr>
-        <tr>
-        <th>Instagram acuuu</th>
-        <td>:</td>
-        <td><a href="https://instagram.com/thryna_a"</a>Disini gengs!!!:D</td>
-        </tr>
-    </table>
-</section>
-    
-    <footer>
-        <!-- ini blok footer punya atep -->
-    </footer>
+  <!-- Header -->
+  <header>
+    <h1>Belajar Membuat Layout dengan HTML dan CSS</h1>
+  </header>
+
+  <nav>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="container">
+    <section class="kiri">
+      <div class="content">
+        <h3>Title</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae pariatur eos laborum minus, fugiat accusantium. Delectus dolores qui soluta maxime illum officia laudantium ipsum necessitatibus ipsa, explicabo non possimus totam, esse molestias optio eos accusantium, doloribus eligendi rem ea reprehenderit. Eum ea quam iste, voluptatibus aut rem architecto ullam provident.
+        </p>
+        <button>Read More...</button>
+      </div>
+
+      <div class="content">
+        <h3>Title</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo itaque soluta, doloremque totam aspernatur enim rem aliquam aperiam voluptatibus necessitatibus accusamus facere veniam odit sint? Aperiam facilis vitae, magni voluptatibus dolor placeat inventore, assumenda maiores molestiae reiciendis tempore nulla aspernatur explicabo commodi. Minima sint similique perferendis architecto consectetur ea expedita!
+        </p>
+        <button>Read More...</button>
+      </div>
+    </section>
+
+    <section class="kanan">
+      <div class="content2">
+        <h3>Category</h3>
+        <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Boostrap</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">MYSQL</a></li>
+            <li><a href="#">Laravel</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy PSTI 2022</p>
+  </footer>
 </body>
 </html>
